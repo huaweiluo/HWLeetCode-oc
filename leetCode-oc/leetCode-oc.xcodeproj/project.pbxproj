@@ -17,6 +17,7 @@
 		834AD98A278ACBF4004DC4BC /* leetCode_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 834AD989278ACBF4004DC4BC /* leetCode_ocTests.m */; };
 		834AD995278ACBF4004DC4BC /* leetCode_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 834AD994278ACBF4004DC4BC /* leetCode_ocUITests.m */; };
 		834AE5D8278B0D06004DC4BC /* lcSumOfTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 834AE5D7278B0D06004DC4BC /* lcSumOfTwoNumbers.c */; };
+		83E4EC7627AC244F00C4239B /* lcPalindromeNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 83E4EC7527AC244F00C4239B /* lcPalindromeNumber.c */; };
 		8EF87687C54B085A5A76E991 /* libPods-leetCode-ocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42834288612C2F16A36DC22E /* libPods-leetCode-ocTests.a */; };
 		A97AAF8F0DC1AAAA19031AD6 /* libPods-leetCode-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C095E9F0B9F04898C949DB49 /* libPods-leetCode-oc.a */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,8 @@
 		834AD996278ACBF4004DC4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834AE5D6278B0D06004DC4BC /* lcSumOfTwoNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lcSumOfTwoNumbers.h; sourceTree = "<group>"; };
 		834AE5D7278B0D06004DC4BC /* lcSumOfTwoNumbers.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lcSumOfTwoNumbers.c; sourceTree = "<group>"; };
+		83E4EC7427AC244F00C4239B /* lcPalindromeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lcPalindromeNumber.h; sourceTree = "<group>"; };
+		83E4EC7527AC244F00C4239B /* lcPalindromeNumber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lcPalindromeNumber.c; sourceTree = "<group>"; };
 		C095E9F0B9F04898C949DB49 /* libPods-leetCode-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leetCode-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D9F6183E12BB25F1E648D5 /* Pods-leetCode-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetCode-oc.release.xcconfig"; path = "Target Support Files/Pods-leetCode-oc/Pods-leetCode-oc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +173,8 @@
 			children = (
 				834AE5D6278B0D06004DC4BC /* lcSumOfTwoNumbers.h */,
 				834AE5D7278B0D06004DC4BC /* lcSumOfTwoNumbers.c */,
+				83E4EC7427AC244F00C4239B /* lcPalindromeNumber.h */,
+				83E4EC7527AC244F00C4239B /* lcPalindromeNumber.c */,
 			);
 			path = leetCode;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 				834AD96F278ACBF2004DC4BC /* AppDelegate.m in Sources */,
 				834AD980278ACBF4004DC4BC /* main.m in Sources */,
 				834AE5D8278B0D06004DC4BC /* lcSumOfTwoNumbers.c in Sources */,
+				83E4EC7627AC244F00C4239B /* lcPalindromeNumber.c in Sources */,
 				834AD972278ACBF2004DC4BC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

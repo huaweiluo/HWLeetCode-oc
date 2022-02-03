@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "lcSumOfTwoNumbers.h"
+#import "lcPalindromeNumber.h"
 
 @interface ViewController ()
 
@@ -33,6 +34,10 @@
     if (result2 && returnSize>=2) {
         printf("result2 is:[%d, %d]\n", result2[0], result2[1]);
     }
+    
+    int x = 122232221;
+    bool bRet = isPalindrome(x);
+    printf("%d is %spalindrome number.", x, bRet?"":"not ");
 }
 
 @end
