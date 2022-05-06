@@ -11,6 +11,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+__BEGIN_DECLS
+
 bool isPalindrome(int x);
+
+__END_DECLS
 
 #endif /* lcPalindromeNumber_h */

@@ -9,6 +9,8 @@
 #import "lcSumOfTwoNumbers.h"
 #import "lcPalindromeNumber.h"
 
+#include "HWLAddTwoNumbers.hpp"
+
 @interface ViewController ()
 
 @end
@@ -38,6 +40,30 @@
     int x = 122232221;
     bool bRet = isPalindrome(x);
     printf("%d is %spalindrome number.", x, bRet?"":"not ");
+    
+    [self testAddTwoNumbers];
 }
 
+- (void)testAddTwoNumbers {
+    AddTwoNumbersSolution *solution = new AddTwoNumbersSolution();
+    ListNode *l1 = new ListNode(1);
+    l1->next = new ListNode(1);
+    l1->next->next = new ListNode(1);
+    
+    ListNode *l2 = new ListNode(2);
+    l2->next = new ListNode(2);
+    
+    ListNode *result = solution->addTwoNumbers(l1, l2);
+    ListNode *p = result;
+    
+    NSInteger r = 0;
+    NSInteger i = 1;
+    while (p!=NULL) {
+        r += (p->val * 1*i);
+        p = p->next;
+        i = i*10;
+    }
+    
+    NSLog(@"testAddTwoNumbers - r is:%ld", r);
+}
 @end

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830CDFF628237C6D00B18DED /* HWLAddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 830CDFF428237C6D00B18DED /* HWLAddTwoNumbers.cpp */; };
 		834AD96F278ACBF2004DC4BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 834AD96E278ACBF2004DC4BC /* AppDelegate.m */; };
 		834AD972278ACBF2004DC4BC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 834AD971278ACBF2004DC4BC /* SceneDelegate.m */; };
-		834AD975278ACBF2004DC4BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834AD974278ACBF2004DC4BC /* ViewController.m */; };
+		834AD975278ACBF2004DC4BC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 834AD974278ACBF2004DC4BC /* ViewController.mm */; };
 		834AD978278ACBF2004DC4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834AD976278ACBF2004DC4BC /* Main.storyboard */; };
 		834AD97A278ACBF4004DC4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834AD979278ACBF4004DC4BC /* Assets.xcassets */; };
 		834AD97D278ACBF4004DC4BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834AD97B278ACBF4004DC4BC /* LaunchScreen.storyboard */; };
@@ -44,13 +45,15 @@
 		3ECCD76B2E1B65CFD4C7C0FD /* Pods-leetCode-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetCode-oc.debug.xcconfig"; path = "Target Support Files/Pods-leetCode-oc/Pods-leetCode-oc.debug.xcconfig"; sourceTree = "<group>"; };
 		42834288612C2F16A36DC22E /* libPods-leetCode-ocTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leetCode-ocTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EC42D226426F8CD8B2B1A0 /* Pods-leetCode-ocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetCode-ocTests.release.xcconfig"; path = "Target Support Files/Pods-leetCode-ocTests/Pods-leetCode-ocTests.release.xcconfig"; sourceTree = "<group>"; };
+		830CDFF428237C6D00B18DED /* HWLAddTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HWLAddTwoNumbers.cpp; sourceTree = "<group>"; };
+		830CDFF528237C6D00B18DED /* HWLAddTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HWLAddTwoNumbers.hpp; sourceTree = "<group>"; };
 		834AD96A278ACBF2004DC4BC /* leetCode-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leetCode-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834AD96D278ACBF2004DC4BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		834AD96E278ACBF2004DC4BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		834AD970278ACBF2004DC4BC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		834AD971278ACBF2004DC4BC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		834AD973278ACBF2004DC4BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		834AD974278ACBF2004DC4BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		834AD974278ACBF2004DC4BC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		834AD977278ACBF2004DC4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		834AD979278ACBF4004DC4BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834AD97C278ACBF4004DC4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,7 +143,7 @@
 				834AD970278ACBF2004DC4BC /* SceneDelegate.h */,
 				834AD971278ACBF2004DC4BC /* SceneDelegate.m */,
 				834AD973278ACBF2004DC4BC /* ViewController.h */,
-				834AD974278ACBF2004DC4BC /* ViewController.m */,
+				834AD974278ACBF2004DC4BC /* ViewController.mm */,
 				834AD976278ACBF2004DC4BC /* Main.storyboard */,
 				834AD979278ACBF4004DC4BC /* Assets.xcassets */,
 				834AD97B278ACBF4004DC4BC /* LaunchScreen.storyboard */,
@@ -175,6 +178,8 @@
 				834AE5D7278B0D06004DC4BC /* lcSumOfTwoNumbers.c */,
 				83E4EC7427AC244F00C4239B /* lcPalindromeNumber.h */,
 				83E4EC7527AC244F00C4239B /* lcPalindromeNumber.c */,
+				830CDFF528237C6D00B18DED /* HWLAddTwoNumbers.hpp */,
+				830CDFF428237C6D00B18DED /* HWLAddTwoNumbers.cpp */,
 			);
 			path = leetCode;
 			sourceTree = "<group>";
@@ -366,12 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834AD975278ACBF2004DC4BC /* ViewController.m in Sources */,
+				834AD975278ACBF2004DC4BC /* ViewController.mm in Sources */,
 				834AD96F278ACBF2004DC4BC /* AppDelegate.m in Sources */,
 				834AD980278ACBF4004DC4BC /* main.m in Sources */,
 				834AE5D8278B0D06004DC4BC /* lcSumOfTwoNumbers.c in Sources */,
 				83E4EC7627AC244F00C4239B /* lcPalindromeNumber.c in Sources */,
 				834AD972278ACBF2004DC4BC /* SceneDelegate.m in Sources */,
+				830CDFF628237C6D00B18DED /* HWLAddTwoNumbers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +552,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F6N69QVRJ7;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = "leetCode-oc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -565,6 +572,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F6N69QVRJ7;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = "leetCode-oc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
