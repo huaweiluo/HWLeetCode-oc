@@ -9,12 +9,7 @@
 #define HWLAddTwoNumbers_hpp
 
 #include <stdio.h>
-
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+#include "HWLSomeDefines.h"
 
 /**
  * Definition for singly-linked list.

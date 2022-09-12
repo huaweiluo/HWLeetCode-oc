@@ -9,6 +9,7 @@
 #import "lcSumOfTwoNumbers.h"
 #import "lcPalindromeNumber.h"
 
+#import "HWLAddTwoNumByRecursion.hpp"
 #include "HWLAddTwoNumbers.hpp"
 
 @interface ViewController ()
@@ -21,6 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+#ifdef COMMENT_CODE
     int nums[] = {2, 7, 11, 13};
     int target = 18;
     int returnSize = 0;
@@ -42,6 +44,9 @@
     printf("%d is %spalindrome number.", x, bRet?"":"not ");
     
     [self testAddTwoNumbers];
+#endif
+    
+    [self testAddTwoNumbersByRecursion];
 }
 
 - (void)testAddTwoNumbers {
@@ -66,4 +71,29 @@
     
     NSLog(@"testAddTwoNumbers - r is:%ld", r);
 }
+
+- (void)testAddTwoNumbersByRecursion {
+    HWLAddTwoNumByRecursion *solution = new HWLAddTwoNumByRecursion();
+    
+    ListNode *l1 = new ListNode(2);
+    l1->next = new ListNode(2);
+    l1->next->next = new ListNode(1);
+    
+    ListNode *l2 = new ListNode(2);
+    l2->next = new ListNode(3);
+    
+    ListNode *result = solution->addTwoNumbers(l1, l2);
+    ListNode *p = result;
+    
+    NSInteger r = 0;
+    NSInteger i = 1;
+    while (p!=NULL) {
+        r += (p->val * 1*i);
+        p = p->next;
+        i = i*10;
+    }
+    
+    NSLog(@"testAddTwoNumbers - r is:%ld", r);
+}
+
 @end
