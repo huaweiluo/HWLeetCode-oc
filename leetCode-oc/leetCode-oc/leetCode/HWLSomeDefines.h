@@ -14,4 +14,10 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+struct IntValNode {
+    int val;
+    int index;
+    IntValNode(int x, int y) : val(x), index(y) {}
+};
+
 #endif /* HWLSomeDefines_h */

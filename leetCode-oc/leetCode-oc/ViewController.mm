@@ -44,9 +44,12 @@
     printf("%d is %spalindrome number.", x, bRet?"":"not ");
     
     [self testAddTwoNumbers];
-#endif
     
     [self testAddTwoNumbersByRecursion];
+    
+#endif
+    
+    [self testMaxLengthOfString];
 }
 
 - (void)testAddTwoNumbers {
@@ -94,6 +97,13 @@
     }
     
     NSLog(@"testAddTwoNumbers - r is:%ld", r);
+}
+
+- (void)testMaxLengthOfString {
+    HWLAddTwoNumByRecursion *solution = new HWLAddTwoNumByRecursion();
+    int result = solution->lengthOfLongestSubstring("aabaab!bb");
+    
+    NSLog(@"testMaxLengthOfString - result:%d", result);
 }
 
 @end
