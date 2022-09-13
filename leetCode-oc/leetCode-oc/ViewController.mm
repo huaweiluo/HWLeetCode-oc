@@ -11,6 +11,7 @@
 
 #import "HWLAddTwoNumByRecursion.hpp"
 #include "HWLAddTwoNumbers.hpp"
+#include "HWLMedianFinding.hpp"
 
 @interface ViewController ()
 
@@ -47,9 +48,10 @@
     
     [self testAddTwoNumbersByRecursion];
     
-#endif
-    
     [self testMaxLengthOfString];
+    
+#endif
+    [self testMedianFinding];
 }
 
 - (void)testAddTwoNumbers {
@@ -104,6 +106,16 @@
     int result = solution->lengthOfLongestSubstring("aabaab!bb");
     
     NSLog(@"testMaxLengthOfString - result:%d", result);
+}
+
+- (void)testMedianFinding {
+    HWLMedianFinding *solution = new HWLMedianFinding();
+    
+    vector<int> v1 = {1,2};
+    vector<int> v2 = {3,4};
+    double result = solution->findMedianSortedArrays2(v1, v2);
+    
+    NSLog(@"testMaxLengthOfString - result:%f", result);
 }
 
 @end
