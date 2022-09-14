@@ -20,6 +20,7 @@
 		834AE5D8278B0D06004DC4BC /* lcSumOfTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 834AE5D7278B0D06004DC4BC /* lcSumOfTwoNumbers.c */; };
 		83695D9428CF662C004DA37E /* HWLAddTwoNumByRecursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83695D9228CF662B004DA37E /* HWLAddTwoNumByRecursion.cpp */; };
 		83C1390328D071310099626E /* HWLMedianFinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C1390128D071310099626E /* HWLMedianFinding.cpp */; };
+		83C13FC428D181A90099626E /* HWLLongestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C13FC228D181A90099626E /* HWLLongestPalindromicSubstring.cpp */; };
 		83E4EC7627AC244F00C4239B /* lcPalindromeNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 83E4EC7527AC244F00C4239B /* lcPalindromeNumber.c */; };
 		8EF87687C54B085A5A76E991 /* libPods-leetCode-ocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42834288612C2F16A36DC22E /* libPods-leetCode-ocTests.a */; };
 		A97AAF8F0DC1AAAA19031AD6 /* libPods-leetCode-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C095E9F0B9F04898C949DB49 /* libPods-leetCode-oc.a */; };
@@ -74,6 +75,8 @@
 		83695D9528CF69C8004DA37E /* HWLSomeDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLSomeDefines.h; sourceTree = "<group>"; };
 		83C1390128D071310099626E /* HWLMedianFinding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HWLMedianFinding.cpp; sourceTree = "<group>"; };
 		83C1390228D071310099626E /* HWLMedianFinding.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HWLMedianFinding.hpp; sourceTree = "<group>"; };
+		83C13FC228D181A90099626E /* HWLLongestPalindromicSubstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HWLLongestPalindromicSubstring.cpp; sourceTree = "<group>"; };
+		83C13FC328D181A90099626E /* HWLLongestPalindromicSubstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HWLLongestPalindromicSubstring.hpp; sourceTree = "<group>"; };
 		83E4EC7427AC244F00C4239B /* lcPalindromeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lcPalindromeNumber.h; sourceTree = "<group>"; };
 		83E4EC7527AC244F00C4239B /* lcPalindromeNumber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lcPalindromeNumber.c; sourceTree = "<group>"; };
 		C095E9F0B9F04898C949DB49 /* libPods-leetCode-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leetCode-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +195,8 @@
 				83695D9528CF69C8004DA37E /* HWLSomeDefines.h */,
 				83C1390228D071310099626E /* HWLMedianFinding.hpp */,
 				83C1390128D071310099626E /* HWLMedianFinding.cpp */,
+				83C13FC328D181A90099626E /* HWLLongestPalindromicSubstring.hpp */,
+				83C13FC228D181A90099626E /* HWLLongestPalindromicSubstring.cpp */,
 			);
 			path = leetCode;
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 				83E4EC7627AC244F00C4239B /* lcPalindromeNumber.c in Sources */,
 				834AD972278ACBF2004DC4BC /* SceneDelegate.m in Sources */,
 				83C1390328D071310099626E /* HWLMedianFinding.cpp in Sources */,
+				83C13FC428D181A90099626E /* HWLLongestPalindromicSubstring.cpp in Sources */,
 				830CDFF628237C6D00B18DED /* HWLAddTwoNumbers.cpp in Sources */,
 				83695D9428CF662C004DA37E /* HWLAddTwoNumByRecursion.cpp in Sources */,
 			);

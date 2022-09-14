@@ -12,6 +12,7 @@
 #import "HWLAddTwoNumByRecursion.hpp"
 #include "HWLAddTwoNumbers.hpp"
 #include "HWLMedianFinding.hpp"
+#include "HWLLongestPalindromicSubstring.hpp"
 
 @interface ViewController ()
 
@@ -50,8 +51,9 @@
     
     [self testMaxLengthOfString];
     
-#endif
     [self testMedianFinding];
+#endif
+    [self testLongestPalindromicSubstring];
 }
 
 - (void)testAddTwoNumbers {
@@ -116,6 +118,12 @@
     double result = solution->findMedianSortedArrays2(v1, v2);
     
     NSLog(@"testMaxLengthOfString - result:%f", result);
+}
+
+- (void)testLongestPalindromicSubstring {
+    LongestPalindromicSubstring *solution = new LongestPalindromicSubstring();
+    string s = solution->longestPalindrome("121321211123432123");
+    cout << s << endl;
 }
 
 @end
