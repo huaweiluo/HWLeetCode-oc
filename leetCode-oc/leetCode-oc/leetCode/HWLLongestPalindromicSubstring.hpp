@@ -128,9 +128,16 @@ public:
         for (int i = 0; i < s.size(); ++i) {
             int cur_arm_len;
             if (right >= i) {
+                
+                //** i 关于j 的对称点 i_sym */
                 int i_sym = j * 2 - i;
+                
+                //** i 的最少臂长(right-i,是j + length - i, 换个说法是i_sym在以j为中心点回文内的臂长) */
                 int min_arm_len = min(arm_len[i_sym], right - i);
+                
+                //** 以i为中心点的回文拓展, 从其最少臂长min_arm_len之外开始即可 */
                 cur_arm_len = expand(s, i - min_arm_len, i + min_arm_len);
+                
             } else {
                 cur_arm_len = expand(s, i, i);
             }
